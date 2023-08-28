@@ -1,0 +1,3 @@
+[submodule "deps/microzig-avr"]
+	path = fw/deps/microzig-avr
+	url = https://github.com/burgrp/microzig-avr.git
