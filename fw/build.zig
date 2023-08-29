@@ -11,7 +11,7 @@ pub fn build(b: *std.build.Builder) !void {
             .path = "src/main.zig",
         },
         .backing = .{
-            .chip = avr.chips.attiny414,
+            .chip = avr.chips.attiny412,
         },
         .optimize = std.builtin.OptimizeMode.ReleaseSmall,
     });
