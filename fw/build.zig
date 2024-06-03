@@ -1,6 +1,6 @@
 const std = @import("std");
 
-const avr = @import("deps/microzig-avr/build.zig");
+const avr = @import("microzigavr");
 
 const microzig = avr.microzig;
 
